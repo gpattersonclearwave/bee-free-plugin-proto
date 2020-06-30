@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "defaultDestination": "wwwroot/lib",
+  "libraries": [
+    {
+      "provider": "jsdelivr",
+      "library": "@mailupinc/bee-plugin@1.2.0",
+      "destination": "wwwroot/lib/bee-plugin/1.20",
+      "files": [
+        "dist/index.min.js",
+        "dist/index.js"
+      ]
+    }
+  ]
+}
